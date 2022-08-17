@@ -1,0 +1,46 @@
+.container{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.header{
+    max-width: 100%;
+    height: 50px;
+    background-color: rgb(173, 144, 144);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.main{
+    max-width: 100%;
+    height: 100%;
+    background-color: rgb(126, 121, 115);
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(173, 144, 144);
+
+
+}
+
+.user{
+    max-width: 1062px;
+    margin: 0 auto;
+    height: 152px;
+    background-color: rgb(180, 102, 102);
+    box-shadow: 5px 5px wheat;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5px 0;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+}

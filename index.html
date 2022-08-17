@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Github search user</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Github Users</h1>
+            <div class="tab">
+                <button class="tablinks" onclick="openTab(event, 'Search')">Search</button>
+                <button class="tablinks" onclick="openTab(event, 'Favorites')">Favorites</button> 
+              </div>
+        </header>
+        <section class="main">
+            <div>
+                <form id="searchForm" autocomplete="off"> 
+                    <label for="type">search user</label>
+                    <input type="text" id="search" required>
+                    <button>search</button>
+                </form>
+                <!-- <label for="sort">sort</label>
+               <select name="" id="sort">
+                 <option value="one">joined</option>
+                 <option value="two">followers</option>
+                 <option value="three">repositories</option>
+               </select>
+               <label for="order">order</label>
+                <select name="" id="order">
+                    <option value="v1">ascending</option>
+                    <option value="v2">descending</option>
+                </select>
+                <label for="range">range</label>
+                <input type="text" id="range"> -->
+            </div>
+            <div id="preload"></div>
+            <div id="card">
+               <!-- <div id="img"></div>
+               <div id="avatar"> </div>
+               <div id="btn" ></div> -->
+            </div>
+        </section>
+        <footer></footer>
+        
+    </div>
+  
+    
+    <script src="index.js"></script>
+</body>
+</html>
